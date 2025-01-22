@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    
+}
+
+/* Food Tracking Wrapper */
+.food-tracking {
+    background-color: hwb(0 87% 11%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: hwb(24 97% 1%);
+    color:black;
+}
+
+/* Logo or Title */
+.navigate {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Links Section */
+.bar2 {
+    display: flex;
+    align-items: center;
+}
+
+/* Links Styling */
+.list {
+    list-style: none;
+    display: flex;
+    padding-left:50rem;
+    gap: 15em;
+    
+}
+
+.list a {
+    text-decoration: none;
+    color:black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+.inner-food-tracking {
+/* margin-bottom: 10rem; */
+    padding: 25rem;
+    background-image: url('wallpaper.png'); /* Added background image to the div */
+    background-size: 90rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px; /* Set a fixed height for visibility */
+    
+}
+.introduction{
+    font: var(--font_0);
+    color: rgb(var(--color_45));
+    letter-spacing: -0.06em;
+    font-size:73px;
+    margin-left: -15%; 
+    color: white;
+}
+.learnMore{
+    margin-left:20%;
+    margin-top: 5%;
+    width: fit-content;
+    border: 2px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+
+
+}
+.hero-link {
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 1.2rem; 
+    color:white; 
+ 
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+}
+.learnMore:hover {
+    background-color: white;
+    color: black;
+  }
+  .hero-link:hover {
+    
+    
+    cursor: pointer;
+    display: block;
+    
+    width: fit-content;
+    color: black;
+    
+  }
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bar2 {
+        margin-top: 10px;
+    }
+
+    .list a {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+}
+.service{
+    
+    height:500px;
+    background-color: #f4f4f4;
+    align-content: center;
+    justify-content: center;
+}
+h3{
+display: grid;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+.grid-container {
+    margin-top: 60px;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+    height:300px;
+}
+
+.grid-item {
+    text-align: center; 
+    border: 2px solid #007bff; 
+    border-radius: 15px; 
+    padding: 20px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.grid-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+h4 {
+    font-size: 1.5rem; 
+    color: #007bff; 
+}
+
+p {
+    font-size: 1rem; 
+    color: #333; 
+    margin-bottom: 40px;
+   
+}
+
+.book-now{
+    margin-left:5%;
+    margin-top: 40%;
+    width: fit-content;
+    height: 60px;
+    border: 2px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: black;
+   
+
+
+}
+.book-link {
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 1.2rem; 
+    color:white; 
+ 
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+}
+.book-now:hover {
+    background-color: white;
+    color: black;
+  }
+  .book-link:hover {
+    
+    
+    cursor: pointer;
+    display: block;
+    
+    width: fit-content;
+    color: black;
+    
+  }
+  /* section-below */
+  .grid-container2 {
+    margin-top: 60px;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: -10px; 
+    padding: 20px;
+    
+    height:200px;
+    
+    
+}
+
+.grid-item2{
+    /* text-align: center;  */
+    border: 2px solid gray; 
+    border-radius: 5rem; 
+    padding: 20rem; 
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+    background-color: #948d8d; 
+}
+
+.close :hover{
+    text-decoration: underline ;
+    cursor: pointer;
+}
+
+.close{
+    display: none;
+    right: 0;
+    width: 20rem;
+    height: 30rem;
+    background-color: aqua;
+    position: absolute;
+
+}
+

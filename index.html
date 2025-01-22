@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Tracking management</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <!-- header -->
+    <div class="food-tracking">
+        
+        <nav>
+            <div class="bar1">
+                <div class="navigate"> Food Tracking Management System</div>
+                <div class="bar2">
+                    <ul class="list">
+                
+                        <a href="#">Contuct Us</a>
+                       <span id="menuClick"><a href="#">Menu</a></span> 
+                        
+                    </ul>
+                </div>
+            </div>
+         </nav>
+         <div class="close" id="container">
+            <p style="float: right; margin: 10px;" id="close">close</p>
+
+         </div>
+    <!-- section -->
+         <div class="inner-food-tracking ">
+                 
+            <h1 class="introduction" >Enhance Your Menus</h1>
+    
+            <h2 class="sub-introduction" style="color: white;">Empower Your Restaurant Business Today</h2>
+               
+            <div class="learnMore">
+                <a class="hero-link" href="#">Learn More</a>
+              </div>
+        
+         </div>
+
+    </div>  
+<div class="service">
+    <h3>Our Services</h3>
+    <div class="grid-container">
+        <div class="grid-item"> 
+        
+            <p>Menu Exploration.</p>
+            <div class="book-now">
+                <a class="book-link" href="#">Book Now</a>
+            </div>
+        </div>
+        <div class="grid-item"> 
+        
+        <p>Customer Feedback.</p>
+        <div class="book-now">
+            <a class="book-link" href="#">Book Now</a>
+        </div>
+        </div>
+        <div class="grid-item"> 
+        
+            <p>Personalized Menu Consulting.</p>
+            <div class="book-now">
+                <a class="book-link" href="#">Book Now</a>
+        </div>
+    </div>
+</div>
+<!-- section -->
+ <di class="grid-container2">
+    <div class="grid-item2">
+
+
+    </div>
+    <div class="grid-item2">
+
+    </div>
+ </di>
+</div>
+</body>
+
+<script>
+
+let menu= document.getElementById("menuClick");
+let check= document.getElementById("container");
+let close= document.getElementById("close");
+
+menu.addEventListener("click", function(){
+    check.style.display="inline";
+});
+
+close.addEventListener("click", function(){
+check.style.display="none";
+close.style.cursor="pointer";
+});
+
+
+
+</script>
+
+</html>
